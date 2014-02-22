@@ -571,6 +571,7 @@
 				.main.style3.secondary {
 					background: #f5f6f7;
 				}
+				
 
 	/* Dark */
 
@@ -1110,6 +1111,17 @@
 
 	#two {
 		background: url('images/overlay.png'), url('../images/two.jpg');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+	
+/*********************************************************************************/
+/* User feedback                                                                  */
+/*********************************************************************************/
+
+	#Feedback {
+		background: url('images/overlay.png'), url('../images/one.jpg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
