@@ -26,13 +26,12 @@
 		position: absolute;
 		left: 1em;
 		top: 0;
-		height: 3em;
 		line-height: 3em;
 		letter-spacing: -1px;
 	}
 	
 		#logo a {
-			font-size: 1.25em;
+			font-size: 1em;
                         text-decoration: none;
 		}
 	
@@ -68,15 +67,9 @@ body
 
 }
 
-input.login
+input
 {
     background-color: #009acd;
-    color: #FFF;
-}
-
-input.cancel
-{
-    background-color: #3333cc;
     color: #FFF;
 }
 
@@ -118,13 +111,13 @@ input.passwordBox
 
 input.login:hover
 {
-    background-color: #000099;
+    background-color: #39454b;
     color: #FFF; 
 }
 
 input.cancel:hover
 {
-    background-color: #009acd;
+    background-color: #39454b;
     color: #FFF;
 }
 
