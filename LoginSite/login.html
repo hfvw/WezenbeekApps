@@ -1,21 +1,27 @@
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="loginstyles.css">
 <title>
 Login page
 </title>
 </head>
 <body>
-    <h1>
-        Please Logon to testLogin as Member
+    <h1 class="head">
+        Please Login
     </h1>
+    <hr>
 <form name="login">
-<p>  
-Username: <input type="text" placeholder="Username" name="userid"/>
+<p class='username'>  
+Username: <input type="text" class='usernameBox' placeholder="Username" name="userid"/>
 </p>
-<p>
-Password: <input type="password" placeholder="Password" name="pswrd"/>
+<p class='password'>
+Password: <input type="password" class='passwordBox' placeholder="Password" name="pswrd"/>
 </p>
-<input type="button" onclick="check(this.form)" value="Login"/>
+<hr>
+<p class='buttons'>
+<input class='Login' type="button" onclick="check(this.form)" value="Login"/>
+<input class='cancel' type="button" onclick="cancel(this.form)" value="Cancel"/>
+</p>
 </form>
 <script language="javascript">
 function check(form)/*function to check userid & password*/
@@ -38,5 +44,12 @@ form.userid.value = ""
 form.pswrd.value = ""
 }
 }
-}</script>
+}
+</script>
+<script language="javascript">
+function cancel(form)/*function to check userid & password*/
+{
+history.go(-1)
+}
+</script>
 </body>

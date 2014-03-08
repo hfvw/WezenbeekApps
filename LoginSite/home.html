@@ -1,15 +1,17 @@
 <html>
-<title>Logged In</title>
+<title>Logged In : Member Center</title>
 <body>
-    <H1>Logged In</H1>
+    <H1>Member Center</H1>
+    <hr>
     <p>Welkom Member</p>
-    <a onclick='Alert(this.form)' href="javascript:history.go(-1)">Sign out</a>
-    
+    <hr>
+    <input type="button" onclick="Alert(this.form)" value="Logout"/>    
 </body>
 <script language="javascript">
 function Alert(form)/*function to check userid & password*/
 {
     alert("Member is uitgelogd")
+    history.go(-1)
 }
 </script>
 </html>

@@ -1,0 +1,71 @@
+h1.head {
+    color: #FFF;
+    text-align: center;
+}
+h1.head:hover
+{
+    font-size: 210%;
+}
+body
+{
+  background: url(login.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+p
+{
+    color: #FFF;
+}
+input.login
+{
+    background-color: #009acd;
+    color: #FFF;
+}
+input.cancel
+{
+    background-color: #3333cc;
+    color: #FFF;
+}
+p.username
+{
+    text-align: center;
+}
+p.password
+{
+    text-align: center;
+}
+p.buttons
+{
+    text-align: center;
+}
+hr
+{
+    height: 5px;
+    background-color: #FFF;
+}
+input.usernameBox
+{
+    color: #dd4400;
+    border: solid;
+    background-color: #000000
+
+}
+input.passwordBox
+{
+    color: #98f5ff;
+    border: solid;
+    background-color: #000000
+
+}
+input.login:hover
+{
+    background-color: #000099;
+    color: #FFF; 
+}
+input.cancel:hover
+{
+    background-color: #009acd;
+    color: #FFF;
+}
