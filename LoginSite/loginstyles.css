@@ -24,9 +24,9 @@
         
         #logo {
 		position: absolute;
-		left: 1em;
+		left: 0.5em;
 		top: 0;
-		line-height: 3em;
+		line-height: 0em;
 		letter-spacing: -1px;
 	}
 	
