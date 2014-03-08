@@ -12,3 +12,48 @@ hr.Member
 {
     background-color: #FFF;
 }
+ul.FilesList
+{
+    color: #FFF;
+}
+ul.FilesList:hover
+{
+    color: #3D3D3D;
+}
+input.LogOut
+{
+    background-color: #3D3D3D;
+    color: #FFF;
+    border: solid;
+    border-color: #8C8C8C 
+}
+input.LogOut:hover
+{
+    background-color: #8C8C8C;
+    color: #3D3D3D;
+    border: solid;
+    border-color: #3D3D3D
+}
+input.GoBack
+{
+    background-color: #3D3D3D;
+    color: #FFF;
+    border: solid;
+    border-color: #8C8C8C
+}
+input.GoBack:hover
+{
+    background-color: #8C8C8C;
+    color: #3D3D3D;
+    border: solid;
+    border-color: #3D3D3D
+
+}
+a.GoToFiles:link
+{
+    color: #FFF;
+}
+a.GoToFiles:visited
+{
+    color: #FFF;
+}
