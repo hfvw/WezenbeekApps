@@ -5,11 +5,24 @@
 Login page
 </title>
 </head>
+
+<!-- Header -->
+			<header id="header">
+
+<!-- Logo -->
+					<h1 id="logo"><a href="#">Wezenbeek Apps</a></h1>
+				
+<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li>Login page</li>
+						</ul>
+					</nav>
+
+			</header>
+
 <body>
-    <h1 class="head">
-        Please Login
-    </h1>
-    <hr>
+
 <form name="login">
 <p class='username'>  
 Username: <input type="text" class='usernameBox' placeholder="Username" name="userid"/>
@@ -17,7 +30,7 @@ Username: <input type="text" class='usernameBox' placeholder="Username" name="us
 <p class='password'>
 Password: <input type="password" class='passwordBox' placeholder="Password" name="pswrd"/>
 </p>
-<hr>
+
 <p class='buttons'>
 <input class='Login' type="button" onclick="check(this.form)" value="Login"/>
 <input class='cancel' type="button" onclick="cancel(this.form)" value="Cancel"/>
