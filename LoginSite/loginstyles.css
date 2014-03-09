@@ -69,8 +69,8 @@ body
 
 input
 {
-    background-color: #009acd;
     color: #FFF;
+    background-image: url(../images/button.jpg)
 }
 
 p.username
@@ -87,7 +87,7 @@ p.buttons
 {
     text-align: center;
 }
-hr
+
 
 {
     height: 5px;
