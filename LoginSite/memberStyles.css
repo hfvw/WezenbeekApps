@@ -31,7 +31,7 @@
 	}
 	
 		#logo a {
-			font-size: 1em;
+			font-size: 0.70em;
                         text-decoration: none;
 		}
 	
@@ -61,7 +61,9 @@
 
 body
 {
-    background-color: #8C8C8C;
+    background-image: url(member.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 h1.Title
 {
@@ -116,6 +118,9 @@ a.GoToFiles:link
 }
 a.GoToFiles:visited
 {
+    color: #FFF;
+}
+p{
     color: #FFF;
 }
 /*********************************************************************************/
